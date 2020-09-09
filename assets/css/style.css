@@ -1,3 +1,55 @@
 .center {
   margin: 0 auto;
 }
+
+.color-red {
+  color: #f72210;
+}
+
+.back-red {
+  background-color: #f72210;
+}
+
+
+/* HEADER */
+
+.header-top {
+  height: 17.8vh;
+  
+}
+
+.weather {
+  width: 25%;
+}
+
+.header-logo {
+  width: 55%;
+}
+
+.header-logo img {
+  height: 17vh;
+}
+
+.header-buttons {
+  width: 20%;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.bnt-login {
+  width: 5.8vw;
+}
+
+.bnt-subscribe {
+  width: 10.1vw;
+  background-color: #ffe400;
+  border-radius: 24px;
+}
+
+.weather-content {
+  height: 40%;
+}
+
+.weather-content img {
+  height: 25px;
+}
