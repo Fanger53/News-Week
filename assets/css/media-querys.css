@@ -1,10 +1,27 @@
 /* Tablet */
 
 @media (min-width: 768px) {
+  /* Header */
 
+  .header-top {
+    height: 17.8vh;
+  }
 
+  .weather {
+    width: 25%;
+    display: inline-block !important;
+  }
+
+  .header-logo img {
+    height: 16vh;
+  }
+}
 /* Desktop */
 
 @media (min-width: 1024px) {
-
+  /* Header */
+  .weather {
+    width: 25%;
+    display: inline-block !important;
+  }
 }

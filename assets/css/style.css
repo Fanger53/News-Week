@@ -10,24 +10,28 @@
   background-color: #f72210;
 }
 
+.color-black {
+  color: black !important; 
+}
+
 
 /* HEADER */
 
 .header-top {
-  height: 17.8vh;
-  
+  height: 14vh;
 }
 
 .weather {
-  width: 25%;
+  
+  display: none !important;
 }
 
 .header-logo {
-  width: 55%;
+  width: 52%;
 }
 
 .header-logo img {
-  height: 17vh;
+  height: 13vh;
 }
 
 .header-buttons {
@@ -41,7 +45,7 @@
 }
 
 .bnt-subscribe {
-  width: 10.1vw;
+  width: 8.125rem;
   background-color: #ffe400;
   border-radius: 24px;
 }
