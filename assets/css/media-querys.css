@@ -4,24 +4,54 @@
   /* Header */
 
   .header-top {
-    height: 17.8vh;
+    height: 11vh;
   }
 
   .weather {
     width: 25%;
-    display: inline-block !important;
+  }
+
+  .header-logo {
+    width: 52%;
   }
 
   .header-logo img {
-    height: 16vh;
+    height: 10vh;
+    padding-right: 40%;
   }
+
+  .header-buttons {
+    padding-left: 15% !important;
+  }
+
 }
 /* Desktop */
 
 @media (min-width: 1024px) {
   /* Header */
+
   .weather {
     width: 25%;
     display: inline-block !important;
+  }
+
+  .header-top {
+    height: 18.8vh;
+  }
+
+  /* .header-logo {
+    padding-left: 15%;
+  } */
+  .header-logo img {
+    height: 18vh;
+    padding: 0;
+  }
+
+  .header-buttons {
+    padding-left: 8% !important;
+  }
+
+  .menu-bars {
+    display: none;
   }
 }

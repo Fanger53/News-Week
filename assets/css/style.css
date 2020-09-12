@@ -10,15 +10,24 @@
   background-color: #f72210;
 }
 
+.color-gray {
+  color: rgb(211, 209, 209);
+}
+
 .color-black {
   color: black !important; 
+}
+
+.hover-red:hover {
+  color: #f72210 !important;
 }
 
 
 /* HEADER */
 
 .header-top {
-  height: 14vh;
+  height: 50px;
+  justify-content: space-between;
 }
 
 .weather {
@@ -26,34 +35,60 @@
   display: none !important;
 }
 
-.header-logo {
-  width: 52%;
-}
+
 
 .header-logo img {
-  height: 13vh;
+  height: 8.9vw;
 }
 
 .header-buttons {
-  width: 20%;
-  align-items: flex-end;
-  gap: 10px;
+  padding-right: 1.17vw;
+  align-items: center;
+  gap: 2%;
 }
 
-.bnt-login {
-  width: 5.8vw;
+.user-logo {
+  
+  height: 2.188rem;
 }
+
 
 .bnt-subscribe {
-  width: 8.125rem;
+  width: 7rem;
+  height: 1.5rem;
   background-color: #ffe400;
   border-radius: 24px;
+  align-items: center;
+  font-size: 14px;
 }
 
-.weather-content {
-  height: 40%;
+.fa-bars {
+  font-size: 1.55rem;
 }
 
 .weather-content img {
   height: 25px;
 }
+
+/* Nav-bar */
+
+.nav-link {
+  font-size: 17px;
+}
+
+.nav-item-b-r {
+  border-right: 1.5px solid rgb(201, 199, 199);
+}
+
+.weather-link {
+  border-right: none;
+}
+
+.form-inline  {
+  width: 8.5%;
+}
+
+.form-control-plaintext {
+  width: 63px;
+}
+
