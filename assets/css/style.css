@@ -11,9 +11,8 @@
 }
 
 .color-black {
-  color: black !important; 
+  color: black !important;
 }
-
 
 /* HEADER */
 
@@ -22,7 +21,6 @@
 }
 
 .weather {
-  
   display: none !important;
 }
 
@@ -56,4 +54,34 @@
 
 .weather-content img {
   height: 25px;
+}
+
+/* feature story */
+
+.border_light_gray {
+  border: 1px solid lightgray;
+}
+
+.thick_hr {
+  background-color: lightgray;
+  height: 3px;
+}
+
+.vs_hr {
+  height: 1px;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+.vs {
+  background-color: black;
+  color: lightgray;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.bg_gray {
+  background-color: #f1f3f5;
 }
