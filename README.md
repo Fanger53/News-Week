@@ -34,7 +34,7 @@ Github: https://github.com/hamayun-cpu
 
 Twitter: https://twitter.com/hamayun_waheed
 
-Linkedin: https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/
+Linkedin: https://www.linkedin.com/in/hamayun-waheed-3527381b2/
 
 
 
