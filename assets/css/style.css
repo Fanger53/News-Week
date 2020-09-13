@@ -146,3 +146,21 @@
 .quer p {
   text-align: center;
 }
+
+.logo_box {
+  width: 236px;
+  height: auto;
+}
+
+.col-light-gray {
+  color: rgba(80, 78, 78, 0.822);
+}
+
+.justify_cont_end {
+  justify-content: start;
+}
+
+.fot_txt {
+  font-size: 14px;
+  color: #666;
+}

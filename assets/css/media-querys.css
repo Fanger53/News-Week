@@ -41,6 +41,15 @@
   .quer p {
     text-align: left;
   }
+
+  .justify_cont_end {
+    justify-content: flex-end;
+  }
+
+  .b-rit {
+    border-right: 1px solid gray;
+    font-size: 15px;
+  }
 }
 /* Desktop */
 
