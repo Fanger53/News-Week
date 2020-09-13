@@ -32,9 +32,9 @@ Authors
 
 Github: https://github.com/hamayun-cpu
 
-Twitter: @hamayun_waheed
+Twitter: https://twitter.com/hamayun_waheed
 
-Linkedin: linkedin
+Linkedin: https://www.linkedin.com/in/guillain-bisimwa-8a8b7a7b/
 
 
 
