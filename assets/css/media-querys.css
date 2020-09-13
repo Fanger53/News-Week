@@ -30,6 +30,17 @@
     width: 50%;
     margin: auto;
   }
+
+  .sml_adj {
+    bottom: 0;
+    margin: auto;
+    padding: 0;
+  }
+
+  .quer h4,
+  .quer p {
+    text-align: left;
+  }
 }
 /* Desktop */
 
