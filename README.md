@@ -24,7 +24,11 @@ Authors
 
 ## Live Demo
 
-[Live Demo Link](https://kingobaino1.github.io/New-York-Times-Page-Clone/)
+[Live Demo Link](https://raw.githack.com/Fanger53/News-Week/features/index.html)
+
+## Getting start
+
+## Authors
 
 👤 **Hamayun**
 
@@ -37,6 +41,8 @@ Authors
 - Github: [@githubhandle]( https://github.com/Fanger53)
 - Twitter: [@twitterhandle](https://twitter.com/DavidLe97005129)
 - Linkedin: [linkedin](https://www.linkedin.com/in/david-castillo-61ba10b8/)
+
+## Acknowledgment 
 
 🤝 Contributing Contributions, issues and feature requests are welcome!
 
