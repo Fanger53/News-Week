@@ -2,8 +2,9 @@
 
 # News-Week
 
-> This project consists of building a clone of the News weeks page, to understand the use of css frameworks, in this project we use bootstrap 4 framework for making the front-end of this web-site and we wanted to know how works the frameworks in differents electronic dispositives
-> https://thenextweb.com/
+> This project consists of building a clone of the News weeks page, to understand the use of css frameworks, in this project we use bootstrap 4 framework for making the front-end of this web-site and we wanted to know how works the frameworks in differents electronic dispositives.
+
+https://thenextweb.com/
 
 ![Alt text](https://github.com/Fanger53/News-Week/blob/features/assets/images/ss.PNG)
 
