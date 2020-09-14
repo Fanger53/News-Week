@@ -12,13 +12,7 @@ This project consists of building a clone of the News weeks page, to understand 
 
 <img width="362" alt="movile-screenshot" src="https://user-images.githubusercontent.com/31552010/93021953-95d1f880-f5ab-11ea-88f5-2701007e4460.png">
 
-
-
-
 Built With : Html,CSS and github technologies used:bootstrap 4, flex-box and grid , Using web-hint linters and StyleLinters.
-
-Live Demo Link:https://raw.githack.com/Fanger53/News-Week/features/index.html
-
 
 Getting Started
 
@@ -28,23 +22,21 @@ Prerequisites: editor text, Html, CSS, github Setup Usage Deployment
 
 Authors
 
-👤 Author1
+## Live Demo
 
-Github: https://github.com/hamayun-cpu
+[Live Demo Link](https://kingobaino1.github.io/New-York-Times-Page-Clone/)
 
-Twitter: https://twitter.com/hamayun_waheed
+👤 **Hamayun**
 
-Linkedin: https://www.linkedin.com/in/hamayun-waheed-3527381b2/
+- Github: [@githubhandle](https://github.com/hamayun-cpu)
+- Twitter: [@twitterhandle](https://twitter.com/hamayun_waheed?s=09&fbclid=IwAR0rfO9cMDDeCX8LfXf4cCNQDrL4LpJ02Q2csWhcT-VtMQ0Cy9EgTB4Wq8E)
+- Linkedin: [linkedin](https://www.linkedin.com/in/hamayun-waheed-3527381b2/)
 
+👤 **David**
 
-
-👤 Author2
-
-Github: https://github.com/Fanger53
-
-Twitter: https://twitter.com/DavidLe97005129
-
-Linkedin: https://www.linkedin.com/in/david-castillo-61ba10b8/
+- Github: [@githubhandle]( https://github.com/Fanger53)
+- Twitter: [@twitterhandle]https://twitter.com/DavidLe97005129)
+- Linkedin: [linkedin](https://www.linkedin.com/in/david-castillo-61ba10b8/)
 
 🤝 Contributing Contributions, issues and feature requests are welcome!
 
