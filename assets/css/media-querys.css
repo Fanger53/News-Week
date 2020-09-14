@@ -26,6 +26,11 @@
 
   /* SPONSORS */
 
+  .sponsors {
+    width: 50%;
+    margin: auto;
+  }
+
   .sml_adj {
     bottom: 0;
     margin: auto;
@@ -44,6 +49,13 @@
   .b-rit {
     border-right: 1px solid gray;
     font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .sponsors {
+    width: 100%;
+    margin: auto;
   }
 }
 
