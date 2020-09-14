@@ -147,9 +147,14 @@
   text-align: center;
 }
 
-.logo_box {
+.last_logo_box {
   width: 236px;
   height: auto;
+}
+
+.logo_box {
+  width: 28px;
+  height: 29px;
 }
 
 .col-light-gray {

@@ -26,11 +26,6 @@
 
   /* SPONSORS */
 
-  .sponsors {
-    width: 50%;
-    margin: auto;
-  }
-
   .sml_adj {
     bottom: 0;
     margin: auto;
@@ -77,12 +72,5 @@
 
   .menu-bars {
     display: none;
-  }
-
-  /* SPONSORS */
-
-  .sponsors {
-    width: 100%;
-    margin: auto;
   }
 }
