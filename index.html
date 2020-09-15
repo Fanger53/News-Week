@@ -1,0 +1,2577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>News Week</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/media-querys.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+    />
+  </head>
+  <body>
+    <header
+      class="header-top fixed-top back-red d-flex justify-content-between sticky-top"
+    >
+      <div
+        class="weather d-flex flex-column text-white justify-content-sm-between align-self-lg-center ml-4 w-lg-25"
+      >
+        <div class="weather-content">
+          <img src="./assets/images/clouds.webp" alt="weather-logo" />
+          19°Ráquira, CO <span><i class="fas fa-angle-right"></i></span>
+        </div>
+        <div>Wed, Sep 09, 2020</div>
+      </div>
+      <div
+        class="header-logo d-flex justify-content-center align-items-center w-lg-50"
+      >
+        <img
+          class="center ml-md-3 m-lg-auto"
+          src="./assets/images/Newsweek_Logo.svg"
+          alt="logo"
+        />
+      </div>
+      <div
+        class="header-buttons d-flex align-items-sm-center align-content-sm-center pl-md-5 w-lg-25"
+      >
+        <img
+          class="user-logo d-md-none d-lg-none"
+          src="./assets/images/user-w.svg"
+          alt="user-logo"
+        />
+        <button
+          class="btn d-none d-sm-none d-md-inline-block text-white font-weight-bold pl-lg-5"
+          type="button"
+        >
+          LOGIN
+        </button>
+        <button class="btn font-weight-bold bnt-subscribe d-flex" type="button">
+          SUBSCRIBE<span class="pl-sm-2 pl-md-2 pl-lg-2"
+            ><i class="fas fa-angle-right"></i
+          ></span>
+        </button>
+        <div class="menu-bars pr-sm-1">
+          <a href="#"><i class="fas fa-bars color-gray"></i></a>
+        </div>
+      </div>
+    </header>
+    <div class="conatiner">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block"
+      >
+        <div class="collapse navbar-collapse">
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              U.S.
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              World
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Buisiness
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Tech
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Culture
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Newsgeek
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Sports
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Health
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Debate
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Vantage
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center border-right">
+            <a
+              href="#"
+              rel="noopener"
+              class="color-black font-weight-bold hover-red nav-link px-0"
+            >
+              Weather
+            </a>
+          </div>
+          <div class="w_8 d-flex justify-content-center nav-link px-0">
+            <form class="my-2 my-lg-0 d-flex">
+              <input
+                class="w-75 border-0 bg-light ml-1"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn my-2 my-sm-0" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <hr class="py-0 my-0 d-none d-lg-block" />
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block"
+    >
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav w_90 m-auto">
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold color-black hover-red" href="#"
+              >TRENDING
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold hover-red" href="#"
+              >DONALD TRUMP</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold hover-red" href="#"
+              >JOE BIDEN</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold hover-red" href="#">CHINA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold hover-red" href="#"
+              >CORONAVIRUS</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link font-weight-bold hover-red" href="#"
+              >2020 ELECTION</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <hr class="py-0 my-0 d-none d-lg-block" />
+
+    <!-- Container of feature,top and debate section -->
+    <div class="row p-3 m-0">
+      <!-- Container of feature,top -->
+      <div class="col-lg-8">
+        <div class="row">
+          <!-- Container of feature -->
+          <div class="col-md-5 order-2 order-md-1">
+            <h6 class="text-secondary mt-5 mt-md-0">FEATURED STORIES</h6>
+            <!-- first card -->
+            <div class="card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/fetStry1.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <h5 class="mt-1 mb-0">
+                <a href="#" rel="noopener" class="color-black font-weight-bold">
+                  McConnell Pessimistic About Another Stimulus Package: 'Doesn't
+                  Look Good'
+                </a>
+              </h5>
+              <p>
+                <small>
+                  "We have been in a challenging period," the GOP senator said.
+                  "Regretfully, I can't tell you today we're going to get
+                  there."
+                </small>
+              </p>
+            </div>
+            <!-- second card -->
+            <div class="card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/fetStry2.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <h5 class="mt-1 mb-0">
+                <a href="#" rel="noopener" class="color-black font-weight-bold">
+                  Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by
+                  November, December
+                </a>
+              </h5>
+              <p>
+                <small>
+                  In a Newsweek interview, Fauci says a presidential edict to
+                  force the FDA to approve an expedited COVID-19 vaccine before
+                  Election Day would never fly.
+                </small>
+              </p>
+            </div>
+            <!-- third card -->
+            <div class="card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/fetStry3.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <h5 class="mt-1 mb-0">
+                <a href="#" rel="noopener" class="color-black font-weight-bold">
+                  Dr. Fauci Would Bet 10 Cents on Trump Having Vaccine by
+                  November, December
+                </a>
+              </h5>
+              <p>
+                <small>
+                  In a Newsweek interview, Fauci says a presidential edict to
+                  force the FDA to approve an expedited COVID-19 vaccine before
+                  Election Day would never fly.
+                </small>
+              </p>
+            </div>
+            <!-- fourth card -->
+            <div class="card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/fetStry4.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <h5 class="mt-1 mb-0">
+                <a href="#" rel="noopener" class="color-black font-weight-bold">
+                  Trump, Biden Avoid Campaign Clashes to Remember 9/11
+                </a>
+              </h5>
+              <p>
+                <small>
+                  Setting aside their differences, President Donald Trump and
+                  former Vice President Joe Biden took part in solemn ceremonies
+                  to mark the 19th anniversary of the deadliest domestic attack
+                  in U.S. history.
+                </small>
+              </p>
+            </div>
+            <!-- fifth card -->
+            <div class="card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/fetStry5.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <h5 class="mt-1 mb-0">
+                <a href="#" rel="noopener" class="color-black font-weight-bold">
+                  54% of Republicans Say U.S. Is Safer Than Before 9/11, 24% of
+                  Dems Agree
+                </a>
+              </h5>
+              <p>
+                <small>
+                  Friday is the 19th anniversary of the 9/11 attacks which
+                  killed nearly 3,000 people and destroyed the World Trade
+                  Center in New York City.
+                </small>
+              </p>
+            </div>
+            <!-- RANKS -->
+            <div class="d-none d-md-block">
+              <!-- ranks 1 -->
+              <div class="d-flex flex-column mt-4">
+                <a href="#" rel="noopener">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/ranks1.PNG"
+                    alt="topstory image"
+                  />
+                </a>
+                <div class="p-3 border_light_gray">
+                  <h5 class="font-weight-bold">
+                    <a href="#" rel="noopener" class="color-black">
+                      Best Online Shops 2021
+                    </a>
+                  </h5>
+                  <small>
+                    Newsweek and Statista are recognizing 1,000 shops across 39
+                    categories in eight groups.
+                  </small>
+                </div>
+              </div>
+              <!-- ranks 2 -->
+              <div class="d-flex flex-column mt-4">
+                <a href="#" rel="noopener">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/ranks2.PNG"
+                    alt="topstory image"
+                  />
+                </a>
+                <div class="p-3 border_light_gray">
+                  <h5 class="font-weight-bold">
+                    <a href="#" rel="noopener" class="color-black">
+                      America's Best Physical Rehabilitation Centers 2020
+                    </a>
+                  </h5>
+                  <small>
+                    Finding reliable rehabilitation can be a challenge. We
+                    partnered with Statista to rank the country's Best Physical
+                    Rehabilitation Centers.
+                  </small>
+                </div>
+              </div>
+              <!-- ranks 3 -->
+              <div class="d-flex flex-column mt-4">
+                <a href="#" rel="noopener">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/ranks3.PNG"
+                    alt="topstory image"
+                  />
+                </a>
+                <div class="p-3 border_light_gray">
+                  <h5 class="font-weight-bold">
+                    <a href="#" rel="noopener" class="color-black">
+                      What Brands do You Trust the Most?
+                    </a>
+                  </h5>
+                  <small>
+                    Tell us for a chance to win. 2020 Brandspark Most Trusted
+                    Awards. Voted by consumers like you.
+                  </small>
+                </div>
+              </div>
+              <!-- ranks 4 -->
+              <div class="d-flex flex-column mt-4">
+                <a href="#" rel="noopener">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/ranks4.PNG"
+                    alt="topstory image"
+                  />
+                </a>
+                <div class="p-3 border_light_gray">
+                  <h5 class="font-weight-bold">
+                    <a href="#" rel="noopener" class="color-black">
+                      Best Maternity Hospitals 2020
+                    </a>
+                  </h5>
+                  <small>
+                    The facilities cited by Newsweek are an elite group
+                    demonstrating excellence in maternity care. Check the full
+                    list here
+                  </small>
+                </div>
+              </div>
+              <!-- ranks 5 -->
+              <div class="d-flex flex-column mt-4">
+                <a href="#" rel="noopener">
+                  <img
+                    class="img-fluid"
+                    src="./assets/images/ranks5.PNG"
+                    alt="topstory image"
+                  />
+                </a>
+                <div class="p-3 border_light_gray">
+                  <h5 class="font-weight-bold">
+                    <a href="#" rel="noopener" class="color-black">
+                      Newsweek AMPLIFY Launches Strategic Partnership Solutions
+                      for Brands
+                    </a>
+                  </h5>
+                  <small>
+                    Newsweek AMPLIFY, the company's performance marketing
+                    business unit, has launched a new program to empower digital
+                    brands with comprehensive content marketing and advertising
+                    strategies.
+                  </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Container of top story -->
+          <div class="col-md-7 order-1 order-md-2">
+            <div class="position-sticky sticky-top z-0">
+              <h6 class="text-secondary">TOP STORY</h6>
+              <!-- first card -->
+              <div class="card border-0">
+                <a href="#" rel="noopener">
+                  <img
+                    src="./assets/images/top_stry1.PNG"
+                    alt="fetstory1"
+                    class="img-fluid"
+                  />
+                </a>
+                <h5 class="mt-2">
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    U.S. Budget Deficit Hits Record, Days After China Says It
+                    May Dump American Debt
+                  </a>
+                </h5>
+                <h6 class="text-secondary">
+                  The $3 trillion deficit between October and August, worsened
+                  by coronavirus relief spending, more than doubles the previous
+                  all-time high shortfall of $1.37 trillion set in 2009.
+                </h6>
+              </div>
+              <!-- MY turn Container -->
+              <div class="d-none d-md-block">
+                <h6 class="text-secondary mt-4">MY TURN</h6>
+                <div class="row">
+                  <!-- first card -->
+                  <div class="col-md-4 card border-0">
+                    <a href="#" rel="noopener">
+                      <img
+                        src="./assets/images/turn1.PNG"
+                        alt="fetstory1"
+                        class="img-fluid"
+                      />
+                    </a>
+                    <p class="mt-2">
+                      <a
+                        href="#"
+                        rel="noopener"
+                        class="font-weight-bold text-secondary"
+                      >
+                        'We're Raising Our Kids at Sea During Covid-19'
+                      </a>
+                    </p>
+                  </div>
+                  <!-- second card -->
+                  <div class="col-md-4 card border-0">
+                    <a href="#" rel="noopener">
+                      <img
+                        src="./assets/images/turn2.PNG"
+                        alt="fetstory1"
+                        class="img-fluid"
+                      />
+                    </a>
+                    <p class="mt-2">
+                      <a
+                        href="#"
+                        rel="noopener"
+                        class="font-weight-bold text-secondary"
+                      >
+                        'We're Raising Our Kids at Sea During Covid-19'
+                      </a>
+                    </p>
+                  </div>
+                  <!-- third card -->
+                  <div class="col-md-4 card border-0">
+                    <a href="#" rel="noopener">
+                      <img
+                        src="./assets/images/turn3.PNG"
+                        alt="fetstory1"
+                        class="img-fluid"
+                      />
+                    </a>
+                    <p class="mt-2">
+                      <a
+                        href="#"
+                        rel="noopener"
+                        class="font-weight-bold text-secondary"
+                      >
+                        'We're Raising Our Kids at Sea During Covid-19'
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Cultures Container -->
+              <div class="d-none d-md-block">
+                <h6 class="text-secondary mt-4">CULTURE & TRAVEL</h6>
+                <div class="row">
+                  <!-- first card -->
+                  <div class="col-md-4 card border-0">
+                    <a href="#" rel="noopener">
+                      <img
+                        src="./assets/images/culture1.PNG"
+                        alt="fetstory1"
+                        class="img-fluid"
+                      />
+                    </a>
+                    <p class="mt-2">
+                      <a
+                        href="#"
+                        rel="noopener"
+                        class="font-weight-bold text-secondary"
+                      >
+                        Planning a Trip to One of NYC's Recently Opened Museums?
+                        What to Know
+                      </a>
+                    </p>
+                  </div>
+                  <!-- second card -->
+                  <div class="col-md-4 card border-0">
+                    <a href="#" rel="noopener">
+                      <img
+                        src="./assets/images/culture2.PNG"
+                        alt="fetstory1"
+                        class="img-fluid"
+                      />
+                    </a>
+                    <p class="mt-2">
+                      <a
+                        href="#"
+                        rel="noopener"
+                        class="font-weight-bold text-secondary"
+                      >
+                        Planning a Trip to One of NYC's Recently Opened Museums?
+                        What to Know
+                      </a>
+                    </p>
+                  </div>
+                  <!-- third card -->
+                  <div class="col-md-4 card border-0">
+                    <a href="#" rel="noopener">
+                      <img
+                        src="./assets/images/culture3.PNG"
+                        alt="fetstory1"
+                        class="img-fluid"
+                      />
+                    </a>
+                    <p class="mt-2">
+                      <a
+                        href="#"
+                        rel="noopener"
+                        class="font-weight-bold text-secondary"
+                      >
+                        First Black Woman to Host Travel TV Show Flies in the
+                        Face of Convention
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- More Stories -->
+              <div class="mt-4 d-none d-md-block">
+                <h6 class="text-secondary mt-4">MORE STORIES</h6>
+                <div>
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str1.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Argentina Refuses to Pay Bitcoin Ransom After Hackers
+                          Force Border Shutdown
+                        </a>
+                      </small>
+                      <small class="text-secondary"
+                        >Argentina's National Directorate of Migration said it
+                        managed to contain the cyber attack.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str2.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Elon Musk Escalates Twitter Row With Robert Reich Over
+                          Tesla Pay Cuts
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        The billionaire tech industry CEO responded after Reich
+                        criticised Tesla for making its workers take a 10
+                        percent pay cut during the COVID-19 pandemic.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str3.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Dems Predict McConnell Stimulus Bill Failure: 'He
+                          Doesn't Have the Votes'
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        Labeled emaciated by opponents and targeted by
+                        supporters, a new stimulus bill proposal is due to be
+                        voted on in the Senate.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str4.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Sweden's Public Health Director Explains Why Lack of
+                          Lockdown Was a Success
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        Johan Carlson said keeping messages clear and consistent
+                        and getting the public to take personal responsibility
+                        helped limit spread of the virus.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str5.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Joe Biden Campaign Targeted by Russian State-Backed
+                          Hackers: Report
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        Sources say there have been attempted breaches of
+                        strategy firm SKDKnickerbocker, which is linked to the
+                        Democratic Party.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str6.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Tatler's Kate Middleton 'Inaccuracies' Online Months
+                          After Legal Threat
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        The threat of legal action against a "swathe of
+                        inaccuracies" saw the U.K. society bible edit out a
+                        paragraph but not taken down its story four months
+                        on.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str7.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Bogota Riots As Police Killing of Unarmed Man Sparks
+                          Violent Unrest
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        Protests erupted after a widely circulated video showed
+                        Javier Humberto Ordonez, a 46-year-old father, pinned to
+                        the ground by two officers and hit with a stun gun
+                        repeatedly.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str8.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          European Countries 'Experiencing Larger Outbreaks' of
+                          Local COVID-19 Cases
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        The U.K., France, Belgium and several other countries in
+                        Europe are "reporting community transmission," according
+                        to the World Health Organization.
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str9.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Lincoln Project Vows to Keep Hitting Trump Over
+                          Disputed Military Comments
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        The president has denied recent allegations he called
+                        fallen military personnel "losers."</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str10.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          Austin Billboard Warns 'Enter At Your Own Risk!' After
+                          Police Defunded
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        Governor Greg Abbott is one of those who has expressed
+                        support for the protest billboards put up by the Texas
+                        Municipal Police Association.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str11.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          China Blames Twitter Hack After Ambassador 'Liked'
+                          Foot Fetish Porn Tweet
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        China's U.K. embassy has suggested that "anti-China
+                        elements" were involved in diplomat Liu Xiaoming
+                        'liking' several offending tweets, one of which included
+                        pornographic content.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="ml-2">
+                  <hr />
+                  <div class="d-flex">
+                    <a href="#" rel="noopener">
+                      <img
+                        class="img_box"
+                        src="./assets/images/more_str12.PNG"
+                        alt=""
+                      />
+                    </a>
+                    <div
+                      class="d-flex flex-column justify-content-between pl-2"
+                    >
+                      <small>
+                        <a
+                          href="#"
+                          rel="noopener"
+                          class="color-black font-weight-bold"
+                        >
+                          KKK Newspapers Keep Appearing Outside Homes of
+                          Kentucky Residents
+                        </a>
+                      </small>
+                      <small class="text-secondary">
+                        Copies of the KKK's Crusader newspaper have been
+                        distributed in a Louisville neighborhood after appearing
+                        in Boyd County in June.</small
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Container of debate -->
+      <div class="col-lg-4">
+        <h6 class="text-secondary mt-5 mt-lg-0">THE DEBATE</h6>
+        <!-- Section for The VS -->
+        <hr class="thick_hr p-0 mt-0 mb-2" />
+        <div class="d-flex">
+          <a href="#" rel="noopener" class="align-self-center">
+            <img
+              class="img-fluid"
+              src="./assets/images/debate1.PNG"
+              alt="debate pic1"
+            />
+          </a>
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black font-weight-bold">
+              <p>
+                Americans' Very Right to Keep and Bear Arms Is on the Ballot
+                This Election
+              </p>
+            </a>
+            <span class="text-secondary">BY</span>
+            <span class="font-weight-bold">JOHN E. ROSENTHAL</span>
+          </div>
+        </div>
+        <div class="d-flex my-2">
+          <div class="w-50">
+            <hr class="vs_hr" />
+          </div>
+          <div class="d-flex vs font-weight-bold justify-content-center">
+            <span class="align-self-center">VS</span>
+          </div>
+          <div class="w-50">
+            <hr class="vs_hr" />
+          </div>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black font-weight-bold">
+              <p>Individual Gun Ownership Is Not at Stake in This Election</p>
+            </a>
+            <span class="text-secondary">BY</span>
+            <span class="font-weight-bold">JOHN E. ROSENTHAL</span>
+          </div>
+
+          <a href="#" rel="noopener" class="align-self-center">
+            <img
+              class="img-fluid"
+              src="./assets/images/debate2.PNG"
+              alt="debate pic1"
+            />
+          </a>
+        </div>
+        <hr class="thick_hr" />
+
+        <!-- OPINIONS -->
+        <h6 class="text-secondary mt-4">OPINION</h6>
+        <div class="d-flex">
+          <a href="#" rel="noopener">
+            <img
+              class="img-debate"
+              src="./assets/images/op1.PNG"
+              alt="debate pic1"
+            />
+          </a>
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black">
+              <h6 class="font-weight-bold">
+                The COVID-19 Vaccine Can Be a Shot in the Arm for Americans—or
+                Trump
+              </h6>
+            </a>
+            <span class="text-secondary">BY ABDUL EL-SAYED</span>
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex">
+          <a href="#" rel="noopener">
+            <img
+              class="img-debate"
+              src="./assets/images/op2.PNG"
+              alt="debate pic1"
+            />
+          </a>
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black">
+              <h6 class="font-weight-bold">
+                On 9/11, Remember the Veterans Who Stood to Defend America
+              </h6>
+            </a>
+            <span class="text-secondary">BY ROBERT WILKIE</span>
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex">
+          <a href="#" rel="noopener">
+            <img
+              class="img-debate"
+              src="./assets/images/op3.PNG"
+              alt="debate pic1"
+            />
+          </a>
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black">
+              <h6 class="font-weight-bold">
+                Barr's Move to Defend Trump Against Carroll Is a Betrayal of All
+                Survivors
+              </h6>
+            </a>
+            <span class="text-secondary"
+              >BY JOAN COOK AND ANNE P. DEPRINCE</span
+            >
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex">
+          <a href="#" rel="noopener">
+            <img
+              class="img-debate"
+              src="./assets/images/op4.PNG"
+              alt="debate pic1"
+            />
+          </a>
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black">
+              <h6 class="font-weight-bold">
+                The Chinese Army Flops in India. What Will Xi Do Next?
+              </h6>
+            </a>
+            <span class="text-secondary">BY GORDON G. CHANG</span>
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex">
+          <a href="#" rel="noopener">
+            <img
+              class="img-debate"
+              src="./assets/images/op5.PNG"
+              alt="debate pic1"
+            />
+          </a>
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black">
+              <h6 class="font-weight-bold">
+                Secession, From Either Left or Right
+              </h6>
+            </a>
+            <span class="text-secondary">BY MICHAEL ANTON</span>
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex">
+          <a href="#" rel="noopener">
+            <img
+              class="img-debate"
+              src="./assets/images/op6.PNG"
+              alt="debate pic1"
+            />
+          </a>
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black">
+              <h6 class="font-weight-bold">
+                Trump Will Never Understand Marines Like Me
+              </h6>
+            </a>
+            <span class="text-secondary">BY KYLE BIBBY</span>
+          </div>
+        </div>
+        <hr />
+        <div class="d-flex">
+          <a href="#" rel="noopener">
+            <img
+              class="img-debate"
+              src="./assets/images/op7.PNG"
+              alt="debate pic1"
+            />
+          </a>
+          <div class="p-2">
+            <a href="#" rel="noopener" class="color-black">
+              <h6 class="font-weight-bold">
+                College Administrators Must Address Anti-Semitism on Their
+                Campuses
+              </h6>
+            </a>
+            <span class="text-secondary"
+              >BY LAURI B. REGAN AND ASAF ROMIROWSKY</span
+            >
+          </div>
+        </div>
+        <!-- RANKS -->
+        <div class="d-block d-md-none">
+          <!-- ranks 1 -->
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/ranks1.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-3 border_light_gray">
+              <h5 class="font-weight-bold">
+                <a href="#" rel="noopener" class="color-black">
+                  Best Online Shops 2021
+                </a>
+              </h5>
+              <small>
+                Newsweek and Statista are recognizing 1,000 shops across 39
+                categories in eight groups.
+              </small>
+            </div>
+          </div>
+          <!-- ranks 2 -->
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/ranks2.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-3 border_light_gray">
+              <h5 class="font-weight-bold">
+                <a href="#" rel="noopener" class="color-black">
+                  America's Best Physical Rehabilitation Centers 2020
+                </a>
+              </h5>
+              <small>
+                Finding reliable rehabilitation can be a challenge. We partnered
+                with Statista to rank the country's Best Physical Rehabilitation
+                Centers.
+              </small>
+            </div>
+          </div>
+          <!-- ranks 3 -->
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/ranks3.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-3 border_light_gray">
+              <h5 class="font-weight-bold">
+                <a href="#" rel="noopener" class="color-black">
+                  What Brands do You Trust the Most?
+                </a>
+              </h5>
+              <small>
+                Tell us for a chance to win. 2020 Brandspark Most Trusted
+                Awards. Voted by consumers like you.
+              </small>
+            </div>
+          </div>
+          <!-- ranks 4 -->
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/ranks4.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-3 border_light_gray">
+              <h5 class="font-weight-bold">
+                <a href="#" rel="noopener" class="color-black">
+                  Best Maternity Hospitals 2020
+                </a>
+              </h5>
+              <small>
+                The facilities cited by Newsweek are an elite group
+                demonstrating excellence in maternity care. Check the full list
+                here
+              </small>
+            </div>
+          </div>
+          <!-- ranks 5 -->
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/ranks5.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-3 border_light_gray">
+              <h5 class="font-weight-bold">
+                <a href="#" rel="noopener" class="color-black">
+                  Newsweek AMPLIFY Launches Strategic Partnership Solutions for
+                  Brands
+                </a>
+              </h5>
+              <small>
+                Newsweek AMPLIFY, the company's performance marketing business
+                unit, has launched a new program to empower digital brands with
+                comprehensive content marketing and advertising strategies.
+              </small>
+            </div>
+          </div>
+        </div>
+        <!-- More Stories -->
+        <div class="mt-5 d-md-none">
+          <h6 class="text-secondary mt-4">MORE STORIES</h6>
+          <div>
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str1.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Argentina Refuses to Pay Bitcoin Ransom After Hackers Force
+                    Border Shutdown
+                  </a>
+                </small>
+                <small class="text-secondary"
+                  >Argentina's National Directorate of Migration said it managed
+                  to contain the cyber attack.</small
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str2.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Elon Musk Escalates Twitter Row With Robert Reich Over Tesla
+                    Pay Cuts
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  The billionaire tech industry CEO responded after Reich
+                  criticised Tesla for making its workers take a 10 percent pay
+                  cut during the COVID-19 pandemic.</small
+                >
+              </div>
+            </div>
+          </div>
+          <div>
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str3.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Dems Predict McConnell Stimulus Bill Failure: 'He Doesn't
+                    Have the Votes'
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  Labeled emaciated by opponents and targeted by supporters, a
+                  new stimulus bill proposal is due to be voted on in the
+                  Senate.</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str4.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Sweden's Public Health Director Explains Why Lack of
+                    Lockdown Was a Success
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  Johan Carlson said keeping messages clear and consistent and
+                  getting the public to take personal responsibility helped
+                  limit spread of the virus.
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str5.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Joe Biden Campaign Targeted by Russian State-Backed Hackers:
+                    Report
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  Sources say there have been attempted breaches of strategy
+                  firm SKDKnickerbocker, which is linked to the Democratic
+                  Party.
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str6.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Tatler's Kate Middleton 'Inaccuracies' Online Months After
+                    Legal Threat
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  The threat of legal action against a "swathe of inaccuracies"
+                  saw the U.K. society bible edit out a paragraph but not taken
+                  down its story four months on.</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str7.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Bogota Riots As Police Killing of Unarmed Man Sparks Violent
+                    Unrest
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  Protests erupted after a widely circulated video showed Javier
+                  Humberto Ordonez, a 46-year-old father, pinned to the ground
+                  by two officers and hit with a stun gun repeatedly.
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str8.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    European Countries 'Experiencing Larger Outbreaks' of Local
+                    COVID-19 Cases
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  The U.K., France, Belgium and several other countries in
+                  Europe are "reporting community transmission," according to
+                  the World Health Organization.
+                </small>
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str9.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Lincoln Project Vows to Keep Hitting Trump Over Disputed
+                    Military Comments
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  The president has denied recent allegations he called fallen
+                  military personnel "losers."</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str10.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    Austin Billboard Warns 'Enter At Your Own Risk!' After
+                    Police Defunded
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  Governor Greg Abbott is one of those who has expressed support
+                  for the protest billboards put up by the Texas Municipal
+                  Police Association.</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str11.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    China Blames Twitter Hack After Ambassador 'Liked' Foot
+                    Fetish Porn Tweet
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  China's U.K. embassy has suggested that "anti-China elements"
+                  were involved in diplomat Liu Xiaoming 'liking' several
+                  offending tweets, one of which included pornographic
+                  content.</small
+                >
+              </div>
+            </div>
+          </div>
+          <div class="ml-2">
+            <hr />
+            <div class="d-flex">
+              <a href="#" rel="noopener">
+                <img
+                  class="img_box"
+                  src="./assets/images/more_str12.PNG"
+                  alt=""
+                />
+              </a>
+              <div class="d-flex flex-column justify-content-between pl-2">
+                <small>
+                  <a
+                    href="#"
+                    rel="noopener"
+                    class="color-black font-weight-bold"
+                  >
+                    KKK Newspapers Keep Appearing Outside Homes of Kentucky
+                    Residents
+                  </a>
+                </small>
+                <small class="text-secondary">
+                  Copies of the KKK's Crusader newspaper have been distributed
+                  in a Louisville neighborhood after appearing in Boyd County in
+                  June.</small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- MY turn Container -->
+        <div class="d-md-none mt-5">
+          <h6 class="text-secondary">MY TURN</h6>
+          <div class="col">
+            <!-- first card -->
+            <div class="row card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/turn1.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <p class="mt-2">
+                <a
+                  href="#"
+                  rel="noopener"
+                  class="font-weight-bold text-secondary"
+                >
+                  'We're Raising Our Kids at Sea During Covid-19'
+                </a>
+              </p>
+            </div>
+            <!-- second card -->
+            <div class="row card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/turn2.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <p class="mt-2">
+                <a
+                  href="#"
+                  rel="noopener"
+                  class="font-weight-bold text-secondary"
+                >
+                  'We're Raising Our Kids at Sea During Covid-19'
+                </a>
+              </p>
+            </div>
+            <!-- third card -->
+            <div class="row card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/turn3.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <p class="mt-2">
+                <a
+                  href="#"
+                  rel="noopener"
+                  class="font-weight-bold text-secondary"
+                >
+                  'We're Raising Our Kids at Sea During Covid-19'
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Cultures Container -->
+        <div class="d-md-none">
+          <h6 class="text-secondary mt-4">CULTURE & TRAVEL</h6>
+          <div class="col">
+            <!-- first card -->
+            <div class="row card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/culture1.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <p class="mt-2">
+                <a
+                  href="#"
+                  rel="noopener"
+                  class="font-weight-bold text-secondary"
+                >
+                  Planning a Trip to One of NYC's Recently Opened Museums? What
+                  to Know
+                </a>
+              </p>
+            </div>
+            <!-- second card -->
+            <div class="row card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/culture2.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <p class="mt-2">
+                <a
+                  href="#"
+                  rel="noopener"
+                  class="font-weight-bold text-secondary"
+                >
+                  Planning a Trip to One of NYC's Recently Opened Museums? What
+                  to Know
+                </a>
+              </p>
+            </div>
+            <!-- third card -->
+            <div class="row card border-0">
+              <a href="#" rel="noopener">
+                <img
+                  src="./assets/images/culture3.PNG"
+                  alt="fetstory1"
+                  class="img-fluid"
+                />
+              </a>
+              <p class="mt-2">
+                <a
+                  href="#"
+                  rel="noopener"
+                  class="font-weight-bold text-secondary"
+                >
+                  First Black Woman to Host Travel TV Show Flies in the Face of
+                  Convention
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- SPONSORS -->
+        <div class="sponsors">
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/spons1.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-4 border_light_gray mb-4">
+              <h4 class="font-weight-bold mt-2">
+                <a href="#" rel="noopener" class="color-black">
+                  What Could a Career in Engineering or Computer Science Do For
+                  You?
+                </a>
+              </h4>
+              <small>
+                Could this be the perfect time for you to pursue a career in
+                engineering or computer science? Find out how to get started.
+              </small>
+            </div>
+          </div>
+          <div class="bg_gray w-75 m-auto p-4 border_light_gray">
+            <div class="d-flex">
+              <img
+                class="logo_box align-self-center"
+                src="./assets/images/nlogo.PNG"
+                alt="logo"
+              />
+              <span class="ml-2 font-weight-bold"
+                >START YOUR DAY WITH OUR TOP 5 ARTICLES</span
+              >
+            </div>
+            <div>
+              <input
+                class="w-100 mt-2 Border border_light_gray p-1"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+              />
+              <button type="button" class="btn btn-danger w-100 mt-1">
+                Free Sign Up
+              </button>
+            </div>
+          </div>
+
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/spons2.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-4 border_light_gray mb-4">
+              <h4 class="font-weight-bold mt-2">
+                <a href="#" rel="noopener" class="color-black">
+                  What Makes the Best Lawyers Stand Out?
+                </a>
+              </h4>
+              <small>
+                The unthinkable has happened and you need a good lawyer to turn
+                to, how do you chose?
+              </small>
+            </div>
+          </div>
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/spons3.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-4 border_light_gray mb-4">
+              <h4 class="font-weight-bold mt-2">
+                <a href="#" rel="noopener" class="color-black">
+                  Millennial Money: Real Estate Investing Mistakes That Lead to
+                  "Sunk Costs" in 2020
+                </a>
+              </h4>
+              <small>
+                Here are the 7 real estate investing mistakes you need to avoid
+                and ergo, save your profits.
+              </small>
+            </div>
+          </div>
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/spons4.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-4 border_light_gray mb-4">
+              <h4 class="font-weight-bold mt-2">
+                <a href="#" rel="noopener" class="color-black">
+                  America's Best Addiction Treatment Centers 2020
+                </a>
+              </h4>
+              <small>
+                Newsweek partnered with global market research firm Statista
+                Inc. to rank the best U.S. treatment facilities that focus on
+                addiction.
+              </small>
+            </div>
+          </div>
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/spons5.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-4 border_light_gray mb-4">
+              <h4 class="font-weight-bold mt-2">
+                <a href="#" rel="noopener" class="color-black">
+                  Best Infection Prevention Products
+                </a>
+              </h4>
+              <small>
+                During the coronavirus outbreak, health care is more important
+                than ever. In Newsweek's first Best Health Care series, we
+                highlight the best infection prevention products.
+              </small>
+            </div>
+          </div>
+          <div class="d-flex flex-column mt-4">
+            <a href="#" rel="noopener">
+              <img
+                class="img-fluid"
+                src="./assets/images/spons6.PNG"
+                alt="topstory image"
+              />
+            </a>
+            <div class="p-4 border_light_gray mb-4">
+              <h4 class="font-weight-bold mt-2">
+                <a href="#" rel="noopener" class="color-black">
+                  Best Nursing Homes 2021</a
+                >
+              </h4>
+              <small>
+                Newsweek is partnering with the respected global data research
+                firm Statista Inc. to establish a ranking of Best Nursing Homes
+                2021. If you work in this field, please participate in our
+                survey.
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Container of The Magzine Line -->
+    <div
+      class="m-auto d-flex w-25 font-weight-bold align-items-center justify-content-center"
+    >
+      <img src="./assets/images/nlogo.PNG" alt="nlogo" class="mr-2" />
+      <span class="text-nowrap"> IN THE MAGZINE</span>
+    </div>
+    <hr class="mx-2" />
+    <!-- Container of The Magzine 1st grid -->
+    <div class="row mx-0">
+      <!-- first card -->
+      <div class="col-md-3">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/mag1.PNG"
+              alt="magzine picture"
+            />
+          </a>
+          <button
+            class="w-100 bg-light text-align-center P-2 font-weight-bold border-0"
+            type="button"
+          >
+            SEE ALL FEATURES
+          </button>
+        </div>
+      </div>
+      <!-- second card -->
+      <div class="col-md-3">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/mag2.PNG"
+              alt="magzine picture"
+            />
+          </a>
+          <div class="P-2 font-weight-bold border-0 d-flex mt-1">
+            <div class="p-1 back-red color-white">COVER</div>
+            <div class="p-1 ml-2">
+              <a
+                href="#"
+                rel="noopener"
+                class="color-red text-decoration-none hover-red"
+              >
+                BUSINESS
+              </a>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#" rel="noopener" class="color-black">
+              How the Pandemic Will Change the Way We Manage Money Forever
+            </a>
+          </h5>
+        </div>
+      </div>
+      <!-- second card -->
+      <div class="col-md-3">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/mag3.PNG"
+              alt="magzine picture"
+            />
+          </a>
+          <div class="P-2 font-weight-bold border-0 d-flex mt-1">
+            <div class="p-1 back-red color-white">COVER</div>
+            <div class="p-1 ml-2">
+              <a
+                href="#"
+                rel="noopener"
+                class="color-red text-decoration-none hover-red"
+              >
+                BUSINESS
+              </a>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#" rel="noopener" class="color-black">
+              Five Money Moves to Make Right Now to Overcome Your Biggest
+              Financial Worries
+            </a>
+          </h5>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/mag4.PNG"
+              alt="magzine picture"
+            />
+          </a>
+          <div class="P-2 font-weight-bold border-0 d-flex mt-1">
+            <div class="p-1 back-red color-white">PERISCOPE</div>
+            <div class="p-1 ml-2">
+              <a
+                href="#"
+                rel="noopener"
+                class="color-red text-decoration-none hover-red"
+              >
+                POLITICS
+              </a>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#" rel="noopener" class="color-black">
+              Obama Fear of Retaliation Limited Response to Russian Meddling,
+              Book Reveal
+            </a>
+          </h5>
+        </div>
+      </div>
+    </div>
+    <!-- Container of The Magzine 2nd grid -->
+    <div class="row mx-0">
+      <!-- first card -->
+      <div class="col-md-3">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/mag5.PNG"
+              alt="magzine picture"
+            />
+          </a>
+          <div class="P-2 font-weight-bold border-0 d-flex mt-1">
+            <div class="p-1 back-red color-white">PERISCOPE</div>
+            <div class="p-1 ml-2">
+              <a
+                href="#"
+                rel="noopener"
+                class="color-red text-decoration-none hover-red"
+              >
+                CULTURE
+              </a>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#" rel="noopener" class="color-black">
+              CIA Directors are Not 'Yes-Men'
+            </a>
+          </h5>
+        </div>
+      </div>
+      <!-- second card -->
+      <div class="col-md-3">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/mag6.PNG"
+              alt="magzine picture"
+            />
+          </a>
+          <div class="P-2 font-weight-bold border-0 d-flex mt-1">
+            <div class="p-1 back-red color-white">DOWNTIME</div>
+            <div class="p-1 ml-2">
+              <a
+                href="#"
+                rel="noopener"
+                class="color-red text-decoration-none hover-red"
+              >
+                CULTURE
+              </a>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#" rel="noopener" class="color-black">
+              25 Must-Read Fall Fiction and Nonfiction Books to Escape the Chaos
+              of 2020
+            </a>
+          </h5>
+        </div>
+      </div>
+      <!-- third card -->
+      <div class="col-md-3">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/mag7.PNG"
+              alt="magzine picture"
+            />
+          </a>
+          <div class="P-2 font-weight-bold border-0 d-flex mt-1">
+            <div class="p-1 back-red color-white">DOWNTIME</div>
+            <div class="p-1 ml-2">
+              <a
+                href="#"
+                rel="noopener"
+                class="color-red text-decoration-none hover-red"
+              >
+                CULTURE
+              </a>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#" rel="noopener" class="color-black">
+              Sunny Hostin Is Sharing Her View in a New Memoir 'I Am These
+              Truths'
+            </a>
+          </h5>
+        </div>
+      </div>
+      <!-- fourth card -->
+      <div class="col-md-3">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/mag8.PNG"
+              alt="magzine picture"
+            />
+          </a>
+          <div class="P-2 font-weight-bold border-0 d-flex mt-1">
+            <div class="p-1 back-red color-white">PERISCOPE</div>
+            <div class="p-1 ml-2">
+              <a
+                href="#"
+                rel="noopener"
+                class="color-red text-decoration-none hover-red"
+              >
+                POLITICS
+              </a>
+            </div>
+          </div>
+          <h5 class="font-weight-bold">
+            <a href="#" rel="noopener" class="color-black">
+              Obama Fear of Retaliation Limited Response to Russian Meddling,
+              Book Reveal
+            </a>
+          </h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container of The Editors Line -->
+    <div
+      class="m-auto d-flex w-25 font-weight-bold align-items-center justify-content-center"
+    >
+      <img src="./assets/images/nlogo.PNG" alt="nlogo" class="mr-2" />
+      <span class="text-nowrap"> EDITOR'S PICK</span>
+    </div>
+    <hr class="mx-2" />
+    <!-- Container of The Magzine 1st grid -->
+    <div class="row mx-0">
+      <!-- first card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/ed1.PNG"
+              alt="magzine picture"
+            />
+          </a>
+
+          <h5 class="font-weight-bold mt-2">
+            <a href="#" rel="noopener" class="color-black">
+              Trump's NIH Director Condemns His Maskless Michigan Rally:
+              'Twisted Decision-Making That Makes No Sense'
+            </a>
+          </h5>
+          <small class="text-secondary mb-3">
+            "This is not a planet that has much promise for the future if
+            something that is so straightforward can somehow get twisted into
+            decision-making that really makes no sense," NIH Director Francis
+            Collins said Thursday.
+          </small>
+        </div>
+      </div>
+      <!-- second card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/ed2.PNG"
+              alt="magzine picture"
+            />
+          </a>
+
+          <h5 class="font-weight-bold mt-2">
+            <a href="#" rel="noopener" class="color-black">
+              Iran Claims U.S. Drones Retreated After Shoot-Down Warning
+            </a>
+          </h5>
+          <small class="text-secondary mb-3">
+            Rear Admiral Shahram Irani claimed Thursday that Iranian forces
+            pushed American drones away from the Iranian coast at the start of
+            major military exercises in the area.
+          </small>
+        </div>
+      </div>
+      <!-- third card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/ed3.PNG"
+              alt="magzine picture"
+            />
+          </a>
+
+          <h5 class="font-weight-bold mt-2">
+            <a href="#" rel="noopener" class="color-black">
+              New Ohio Health Secretary Backs Out Hours After Governor Announces
+              Hire
+            </a>
+          </h5>
+          <small class="text-secondary mb-3">
+            "In conversations preparing for the transition to the Ohio
+            Department of Health, I was informed that the former director's
+            family had faced harassment from the public," Dr. Joan Duwve said.
+          </small>
+        </div>
+      </div>
+      <!-- fourth card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/ed4.PNG"
+              alt="magzine picture"
+            />
+          </a>
+
+          <h5 class="font-weight-bold mt-2">
+            <a href="#" rel="noopener" class="color-black">
+              Graham Slams Khashoggi Verdict As Woodward Reveals Trump Said He
+              Saved MBS
+            </a>
+          </h5>
+          <small class="text-secondary mb-3">
+            A Saudi court on Monday sentenced eight unnamed people for between
+            seven and 20 years for killing the journalist in 2018, but critics
+            say the masterminds have escaped punishment.
+          </small>
+        </div>
+      </div>
+    </div>
+
+    <!-- Container of The Magzine 2nd grid -->
+    <div class="row mx-0">
+      <!-- first card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/ed5.PNG"
+              alt="magzine picture"
+            />
+          </a>
+
+          <h5 class="font-weight-bold mt-2">
+            <a href="#" rel="noopener" class="color-black">
+              Kudlow Says Stimulus Bill Would Have Been 'Great Start'
+            </a>
+          </h5>
+          <small class="text-secondary mb-3">
+            White House economic adviser Larry Kudlow told reporters he thought
+            the Senate's GOP bill would have helped "ordinary Americans" but an
+            economic recovery didn't hinge on it.
+          </small>
+        </div>
+      </div>
+      <!-- second card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/ed6.PNG"
+              alt="magzine picture"
+            />
+          </a>
+
+          <h5 class="font-weight-bold mt-2">
+            <a href="#" rel="noopener" class="color-black">
+              Right Wing Media Stoked 'Hurricane Skepticism' Just Before Irma
+              Hit Florida
+            </a>
+          </h5>
+          <small class="text-secondary mb-3">
+            Researchers used GPS and polling data to explore the relationship
+            between who residents likely voted for and their behaviour in
+            hurricane season.
+          </small>
+        </div>
+      </div>
+      <!-- third card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/ed7.PNG"
+              alt="magzine picture"
+            />
+          </a>
+
+          <h5 class="font-weight-bold mt-2">
+            <a href="#" rel="noopener" class="color-black">
+              Air Pollution From California Wildfires in Some Regions
+              'Unprecedented'
+            </a>
+          </h5>
+          <small class="text-secondary mb-3">
+            Experts say climate change must be addressed to combat worsening
+            wildfire seasons.
+          </small>
+        </div>
+      </div>
+      <!-- fourth card -->
+      <div class="col-lg-3 col-md-6">
+        <div class="card border-0">
+          <a href="#" rel="noopener">
+            <img
+              class="img-fluid"
+              src="./assets/images/ed8.PNG"
+              alt="magzine picture"
+            />
+          </a>
+
+          <h5 class="font-weight-bold mt-2">
+            <a href="#" rel="noopener" class="color-black">
+              The National Center on Sexual Exploitation Weighs in on Netflix's
+              'Cuties'
+            </a>
+          </h5>
+          <small class="text-secondary mb-3">
+            NCOSE suggested cutting certain scenes from the film that may be
+            viewed as suggestive.
+          </small>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="row mx-0">
+      <div class="col-lg-8 p-4">
+        <p class="color-red font-weight-bold">SUBSCRIBE</p>
+        <div class="row bg_gray ml-1">
+          <div
+            class="col-xl-5 col-lg-6 col-md-4 py-4 d-flex justify-content-center"
+          >
+            <img
+              class="img-fluid p-0"
+              src="./assets/images/subs.PNG"
+              alt="subsimage"
+            />
+          </div>
+          <div
+            class="col-xl-7 col-lg-6 col-md-8 d-flex flex-column justify-content-center sml_adj quer"
+          >
+            <h4 class="font-weight-bold">
+              In-depth Stories You Don't See Elsewhere About Topics You Want to
+              Read!
+            </h4>
+            <p>
+              All Access + Weekly Delivery. Choose A Membership That's Perfect
+              for You!
+            </p>
+            <button
+              class="p-2 color-white font-weight-bold back-red border-0 w-abs rounded align-items-center align-self-center"
+              type="button"
+            >
+              SUBSCRIBE
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 p-4">
+        <p class="color-red font-weight-bold">NEWSLETTER</p>
+        <div class="row border_light_gray quer">
+          <div class="col-lg-5 col-md-3 d-none d-md-block px-0">
+            <img class="im" src="./assets/images/news.PNG" alt="news pic" />
+          </div>
+          <div
+            class="col-lg-7 col-md-9 d-flex flex-column justify-content-center"
+          >
+            <h4 class="font-weight-bold">The Starting 5</h4>
+            <p>
+              See why nearly a quarter of a million subscribers begin their day
+              with the Starting 5.
+            </p>
+            <input
+              type="email"
+              placeholder="Email"
+              class="p-1 border_light_gray w-100"
+            />
+            <button
+              class="p-2 color-white font-weight-bold back-red border-0 rounded align-items-center align-self-center my-3 w-100"
+              type="button"
+            >
+              FREE SIGN UP
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <footer class="px-2 pb-4">
+      <div class="row pl-2 mx-0">
+        <div class="col-md-7 d-flex pr-0">
+          <div class="row">
+            <div class="col-md-7">
+              <a href="#" rel="noopener">
+                <img
+                  class="last_logo_box"
+                  src="./assets/images/log.PNG"
+                  alt="News Week Logo"
+                />
+              </a>
+            </div>
+            <div class="col-md-5 d-flex">
+              <small class="text-secondary align-self-end"
+                >© 2020 NEWSWEEK</small
+              >
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 d-flex justify_cont_end">
+          <a href="#" rel="noopener" class="align-self-center col-light-gray">
+            <i class="fab fa-facebook-square fa-lg p-2"></i>
+          </a>
+          <a href="#" rel="noopener" class="align-self-center col-light-gray">
+            <i class="fab fa-twitter fa-lg align-self-center p-2"></i>
+          </a>
+          <a href="#" rel="noopener" class="align-self-center col-light-gray">
+            <i class="fab fa-instagram-square fa-lg align-self-center p-2"></i>
+          </a>
+          <a href="#" rel="noopener" class="align-self-center col-light-gray">
+            <i class="fab fa-tumblr fa-lg align-self-center p-2"></i>
+          </a>
+          <a href="#" rel="noopener" class="align-self-center col-light-gray">
+            <i class="fab fa-linkedin-in fa-lg align-self-center p-2"></i>
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div class="d-flex flex-wrap">
+        <a href="#" rel="noopener">
+          <span class="fot_txt px-3 font-weight-bold color-black"
+            >Editions:</span
+          >
+        </a>
+        <a href="#" rel="noopener">
+          <span class="fot_txt px-3 b-rit font-weight-bolder"
+            >U.S. Edition
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">日本</span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder"> Pakistan </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">Polska </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt font-weight-bolder">România</span>
+        </a>
+      </div>
+      <div class="d-flex flex-wrap mt-2">
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">Aboust Us </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder"
+            >Corrections
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">
+            Contact Us
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder"
+            >Editorial Guidelines
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder"> Advertise </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">Copyright </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder"
+            >Terms & Conditions
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder"
+            >Privacy Policy
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">
+            Cookie Policy
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">
+            Terms of Sale
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">Archive </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt b-rit font-weight-bolder">
+            Announcements
+          </span>
+        </a>
+        <a href="#" rel="noopener">
+          <span class="px-3 fot_txt font-weight-bolder">
+            Consent preferences
+          </span>
+        </a>
+      </div>
+    </footer>
+
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

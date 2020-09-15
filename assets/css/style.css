@@ -1,0 +1,176 @@
+.center {
+  margin: 0 auto;
+}
+
+.color-red {
+  color: #f72210;
+}
+
+.back-red {
+  background-color: #f72210;
+}
+
+.color-gray {
+  color: rgb(211, 209, 209);
+}
+
+.color-black {
+  color: black !important;
+}
+
+.hover-red:hover {
+  color: #f72210 !important;
+}
+
+/* HEADER */
+
+.header-top {
+  height: 50px;
+  justify-content: space-between;
+}
+
+.weather {
+  display: none !important;
+}
+
+.header-logo img {
+  height: 6.7vw;
+}
+
+.header-buttons {
+  padding-right: 1.17vw;
+  align-items: center;
+  gap: 2%;
+}
+
+.user-logo {
+  height: 2.188rem;
+}
+
+.bnt-subscribe {
+  width: 7rem;
+  height: 1.5rem;
+  background-color: #ffe400;
+  border-radius: 24px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.fa-bars {
+  font-size: 1.55rem;
+}
+
+.weather-content img {
+  height: 25px;
+}
+
+/* Nav-bar */
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-item-b-r {
+  border-right: 1.5px solid rgb(201, 199, 199);
+}
+
+.weather-link {
+  border-right: none;
+}
+
+.w_90 {
+  width: 99%;
+}
+
+/* feature story */
+
+.border_light_gray {
+  border: 1px solid lightgray;
+}
+
+.thick_hr {
+  background-color: lightgray;
+  height: 3px;
+}
+
+.vs_hr {
+  height: 1px;
+  background-color: white;
+  border-top: 1px solid lightgray;
+  border-bottom: 2px solid lightgray;
+}
+
+.vs {
+  background-color: black;
+  color: lightgray;
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.bg_gray {
+  background-color: #f1f3f5;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.w_8 {
+  width: 8.33%;
+}
+
+.color-white {
+  color: white;
+}
+
+.w-abs {
+  width: 120px;
+}
+
+.sml_adj {
+  position: relative;
+  bottom: 90px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.im {
+  max-height: 100%;
+  max-width: 100%;
+  height: 100%;
+  width: auto;
+}
+
+.quer h4,
+.quer p {
+  text-align: center;
+}
+
+.last_logo_box {
+  width: 236px;
+  height: auto;
+}
+
+.logo_box {
+  width: 28px;
+  height: 29px;
+}
+
+.col-light-gray {
+  color: rgba(80, 78, 78, 0.822);
+}
+
+.justify_cont_end {
+  justify-content: start;
+}
+
+.fot_txt {
+  font-size: 14px;
+  color: #666;
+}
+
+.sponsors {
+  width: 100%;
+  margin: auto;
+}
