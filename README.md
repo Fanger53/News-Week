@@ -34,7 +34,7 @@ The project is public.
 
 - Github: [@githubhandle](https://github.com/Fanger53)
 - Twitter: [@twitterhandle](https://twitter.com/DavidLe97005129)
-- Linkedin: [linkedin](https://www.linkedin.com/in/david-castillo-61ba10b8/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/hamayun-waheed/)
 
 ## 🤝 Contributing
 
