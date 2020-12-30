@@ -6,7 +6,7 @@
 
 https://www.newsweek.com/
 
-![Alt text](https://github.com/Fanger53/News-Week/blob/features/assets/images/ss.PNG)
+![Alt text](https://github.com/Fanger53/News-Week/blob/master/assets/images/ss.PNG)
 
 ## Built With
 
